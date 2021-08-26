@@ -1,0 +1,30 @@
+/*header section*/
+@import "variables";
+
+.header{
+	display: grid;
+	grid-template-columns: 75px auto;
+	grid-template-areas: "logo links";
+	&-icon-container{
+		grid-area: logo;
+		width: 100%;
+		@at-root{
+			.header-icon{
+				width: 100%;
+				background: cover;
+			}
+		}
+	}
+	&-links-container{
+		grid-area: links;
+		display: flex;
+		justify-content: space-evenly;
+		align-items: center;
+		@at-root{
+			.header-link{
+				color: white;
+				text-decoration: none;
+			}
+		}
+	}
+}

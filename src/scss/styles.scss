@@ -1,29 +1,36 @@
+@import "variables";
+@import "header";
+@import "main-section";
+@import "scroll-component";
+
 *{
+	padding: 0;
 	margin: 0;
 }
+html {
+  scroll-behavior: smooth;
+}
 body{
-	background: #234;
+	background: black;
 }
-
-@mixin b($w:1px,$c:red){
-	background:  #001;
-	border: $w $c solid;
-	color:  white;
-}
-
 .prime-container{
 	display: grid;
-	grid-template-rows: 10vh 80vh 10vh;
+	width: 100%;
+	height: 99vh;
+	grid-template-rows: 75px 1fr 75px;
 	grid-template-areas:  "header"
 						  "mainsection"
 						  "footer";
+							  
 	&__header{
-		@include b;
+		grid-area: header;
 	}
 	&__main-section{
+		grid-area: mainsection;
 		@include b;
+		overflow: auto;
 	}
 	&__footer{
-		@include b;
+		grid-area: footer;
 	}
 }

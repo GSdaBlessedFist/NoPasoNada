@@ -1,0 +1,28 @@
+/*variables and mixins*/
+/* width */
+/* line 5, ../../src/scss/scroll-component.scss */
+::-webkit-scrollbar {
+  margin-left: 5px;
+  width: 15px;
+}
+
+/* Track */
+/* line 11, ../../src/scss/scroll-component.scss */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 15px;
+}
+
+/* Handle */
+/* line 17, ../../src/scss/scroll-component.scss */
+::-webkit-scrollbar-thumb {
+  background: transparent;
+  border-radius: 15px;
+  box-shadow: inset 2px 0px 2px black;
+}
+
+/* Handle on hover */
+/* line 24, ../../src/scss/scroll-component.scss */
+::-webkit-scrollbar-thumb:hover {
+  background: black;
+}

@@ -1,0 +1,19 @@
+/*main-section*/
+@import "variables";
+
+
+.main-section{
+	display: grid;
+	grid-template-rows: 80% 20%;
+	grid-template-areas: "hero"
+						 "info";
+	@at-root{
+		@for $i from 1 through 3{
+			.page-#{$i}{
+				@extend %page;
+				background: hsl(random(180) - 100, 50%, 70%);
+				border: 2px black solid;
+			}
+		}
+	}
+}

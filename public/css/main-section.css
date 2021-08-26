@@ -1,0 +1,33 @@
+/*main-section*/
+/*variables and mixins*/
+/* line 12, ../../src/scss/variables.scss */
+.page-1, .page-2, .page-3 {
+  display: block;
+  position: relative;
+  width: calc(100% - $scrollWidth);
+  height: 800px;
+}
+
+/* line 5, ../../src/scss/main-section.scss */
+.main-section {
+  display: grid;
+  grid-template-rows: 80% 20%;
+  grid-template-areas: "hero" "info";
+}
+/* line 12, ../../src/scss/main-section.scss */
+.page-1 {
+  background: #d9a38c;
+  border: 2px black solid;
+}
+
+/* line 12, ../../src/scss/main-section.scss */
+.page-2 {
+  background: #d98c9a;
+  border: 2px black solid;
+}
+
+/* line 12, ../../src/scss/main-section.scss */
+.page-3 {
+  background: #d7d98c;
+  border: 2px black solid;
+}

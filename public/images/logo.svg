@@ -1,0 +1,64 @@
+<svg width="805.209" height="784.824" viewBox="0 0 213.045 207.651" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient xlink:href="#a" id="f" cx="105.551" cy="144.722" fx="105.551" fy="144.722" r="14.762" gradientTransform="matrix(1 0 0 .71392 110.188 76.084)" gradientUnits="userSpaceOnUse"/>
+    <radialGradient xlink:href="#b" id="g" cx="107.037" cy="126.103" fx="107.037" fy="126.103" r="13.741" gradientUnits="userSpaceOnUse" gradientTransform="matrix(.66343 -.00655 .00673 .682 145.945 76.514)"/>
+    <radialGradient xlink:href="#a" id="c" cx="105.551" cy="144.722" fx="105.551" fy="144.722" r="14.762" gradientTransform="matrix(1 0 0 .71392 110.188 76.084)" gradientUnits="userSpaceOnUse"/>
+    <radialGradient xlink:href="#b" id="d" cx="107.037" cy="126.103" fx="107.037" fy="126.103" r="13.741" gradientUnits="userSpaceOnUse" gradientTransform="matrix(.66343 -.00655 .00673 .682 145.945 76.514)"/>
+    <linearGradient id="a">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".605" stop-color="#fe4306"/>
+      <stop offset="1" stop-color="#aa2b2b"/>
+    </linearGradient>
+    <linearGradient id="b">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#2a68b4" stop-opacity=".999"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(-112.402 -211.508) scale(2.13155)">
+    <g stroke="#000" color="#000">
+      <path style="-inkscape-stroke:none" d="M146.582 174.421l-43.549-38.817-39.227 39.17a53.328 53.328 0 0041.237 19.547 53.328 53.328 0 0041.54-19.9z" stroke-width="1.7598255999999999"/>
+      <path style="-inkscape-stroke:none" d="M103 134.394l-40.378 40.321.501.614a54.224 54.224 0 0041.922 19.874 54.2 54.2 0 0042.22-20.229l.53-.653-.625-.558zm.067 2.417l42.238 37.645c-9.953 11.972-24.662 18.98-40.26 18.983-15.449-.008-30.039-6.885-39.99-18.667z" stroke-width="2.88496"/>
+      <g>
+        <path style="-inkscape-stroke:none" d="M143.54 140.994a38.497 38.497 0 01-38.498 38.497 38.497 38.497 0 01-38.497-38.497 38.497 38.497 0 0138.497-38.498 38.497 38.497 0 0138.497 38.498z" stroke-width="3.6494744"/>
+        <path style="-inkscape-stroke:none" d="M105.045 100.67c-22.248 0-40.327 18.074-40.327 40.322 0 22.247 18.08 40.322 40.327 40.322 22.248 0 40.322-18.075 40.322-40.322 0-22.248-18.074-40.322-40.322-40.322zm0 3.651c20.275 0 36.67 16.396 36.67 36.67 0 20.276-16.395 36.677-36.67 36.677-20.275 0-36.676-16.401-36.676-36.676 0-20.275 16.401-36.67 36.676-36.67z" stroke-width="2.88496"/>
+      </g>
+    </g>
+    <g stroke="#fff">
+      <path d="M229.816 178.68l-15.095-13.454-13.597 13.577a18.485 18.485 0 0014.294 6.775 18.484 18.484 0 0014.398-6.897z" fill="url(#c)" stroke-width=".61" transform="matrix(2.88496 0 0 2.88496 -516.403 -341.195)"/>
+      <path d="M228.818 166.948a13.344 13.344 0 01-13.344 13.344 13.344 13.344 0 01-13.344-13.344 13.344 13.344 0 0113.344-13.344 13.344 13.344 0 0113.344 13.344z" fill="url(#d)" stroke-width=".794" transform="matrix(2.88496 0 0 2.88496 -516.403 -341.195)"/>
+    </g>
+    <g font-weight="400" font-size="10.686" font-family="Ubuntu" letter-spacing="0" word-spacing="0" stroke-width=".382">
+      <text style="line-height:.75;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal" transform="rotate(-9.634 105.83 141.453)" stroke="#000" stroke-opacity="0">
+        <textPath xlink:href="#e" style="-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">CREDIT REPAIR</textPath>
+      </text>
+      <text style="line-height:.75;-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal" transform="rotate(-9.634 103.337 140.384)" fill="#2a68b4">
+        <textPath xlink:href="#e" style="-inkscape-font-specification:'Ubuntu, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal" fill="#ffe303">CREDIT REPAIR</textPath>
+      </text>
+    </g>
+    <path id="e" d="M65.43 171.936c9.58 11.766 24.041 18.705 39.401 18.91 15.519.195 30.289-6.506 40.168-18.224" display="inline" fill="none" fill-opacity="1" stroke="none" stroke-width=".726" stroke-miterlimit="4" stroke-dasharray="none" stroke-opacity="1"/>
+    <g stroke="#000" stroke-opacity=".987" font-weight="400" font-family="Dyuthi" letter-spacing="0" word-spacing="0">
+      <text style="line-height:1.25;-inkscape-font-specification:'Dyuthi, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal" x="56.524" y="193.093" transform="matrix(2.71148 -.99955 1.00402 2.6994 -289.651 -308.093)" font-size="10.588" stroke-width=".265">
+        <tspan x="56.524" y="193.093">No Paso</tspan>
+      </text>
+      <text style="line-height:1.25;-inkscape-font-specification:'Dyuthi, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal" x="56.795" y="202.706" transform="scale(2.88496) rotate(-21.903 -326.145 206.03)" font-size="10.549" stroke-width=".264">
+        <tspan style="-inkscape-font-specification:'Dyuthi, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal" x="56.795" y="202.706">Nada</tspan>
+      </text>
+    </g>
+    <g font-weight="400" font-family="Dyuthi" letter-spacing="0" word-spacing="0" fill="#e11c39" stroke="#fff">
+      <text style="line-height:1.25;-inkscape-font-specification:'Dyuthi, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal" x="35.822" y="158.251" transform="matrix(2.71148 -.99955 1.00402 2.6994 -198.538 -236.312)" font-size="10.588" stroke-width=".265">
+        <tspan x="35.822" y="158.251">No Paso</tspan>
+      </text>
+      <text style="line-height:1.25;-inkscape-font-specification:'Dyuthi, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal" x="36.978" y="167.331" transform="matrix(2.6767 -1.0762 1.0762 2.6767 -198.538 -236.312)" font-size="10.549" stroke-width=".264">
+        <tspan style="-inkscape-font-specification:'Dyuthi, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal" x="36.978" y="167.331">Nada</tspan>
+      </text>
+    </g>
+    <g aria-label="inc" style="line-height:5;-inkscape-font-specification:'Dyuthi, Normal'" font-size="10.583" font-family="Dyuthi" letter-spacing=".929" word-spacing="0" fill="#e11c39" stroke="#fff" stroke-width=".794" stroke-opacity="0">
+      <g style="line-height:5;-inkscape-font-specification:'Dyuthi, Normal'" fill="#000" stroke="none">
+        <path d="M108.157 177.272q-.507.197-1.003-.014-.491-.223-.688-.73l-1.875-4.821q-.197-.507.023-1.006.228-.503.718-.693l.016-.007q.49-.19.99.03t.696.726l1.875 4.821q.197.507-.023 1.006-.22.5-.713.682zm-2.45-9.64q.206.532-.027 1.046-.225.51-.74.71-.522.204-1.025-.024-.502-.228-.717-.756-.207-.531.021-1.034.217-.507.743-.702.507-.197 1.02.008.515.213.725.753zM118.046 168.987l1.167 2.952q.18.465-.03.942-.147.321-.739.542l-.007.003q-.58.225-.895.094-.47-.194-.658-.676l-1.204-3.097q-.455-1.169-1.302-1.244-.856-.071-1.488.748-.631.82-.396 1.302l1.35 3.473q.188.482-.012.936-.14.318-.723.535l-.041.016q-.58.226-.895.094-.477-.21-.658-.675l-2.26-5.81q-.123-.32.028-.632.151-.313.437-.424l.85-.33q.319-.124.624.03.301.146.409.424l.006.016q.907-1.152 1.44-1.472 1.832-1.098 3.402-.156.853.524 1.595 2.408zM127.56 168.664l.013.033q.111.286.05.564-.16.58-1.435 1.075-1.7.661-3.338.028-1.638-.633-2.245-2.193-.607-1.561.173-3.135.78-1.573 2.48-2.234.603-.216 1.224-.288.673-.036.911.577l.023.057q.162.417-.04.769-.235.364-.884.484-.653.113-1.303.714-.37.332-.445.888-.08.567.132 1.115l.035.09q.324.833 1.123 1.219.796.377 1.556.081.323-.088.674-.3.357-.194.76-.05.39.13.537.506z"/>
+      </g>
+      <g stroke-width=".854" stroke-opacity=".999">
+        <path d="M108.51 175.856q-.482.187-.954-.014-.467-.212-.655-.694l-1.783-4.586q-.187-.482.022-.957.216-.478.683-.659l.015-.006q.467-.181.942.028.474.209.662.69l1.783 4.586q.187.482-.022.957t-.678.649zm-2.331-9.17q.196.506-.025.995-.214.486-.703.676-.498.193-.976-.023-.478-.217-.682-.72-.197-.504.02-.982.206-.483.707-.669.482-.187.969.008.49.203.69.716zM117.915 167.975l1.11 2.807q.172.443-.027.897-.141.305-.704.515l-.007.003q-.552.214-.851.09-.448-.185-.626-.643l-1.145-2.946q-.432-1.111-1.239-1.183-.814-.068-1.414.711-.6.78-.378 1.239l1.285 3.303q.178.459-.012.89-.133.303-.688.51l-.038.014q-.552.215-.852.09-.453-.2-.625-.643l-2.149-5.526q-.118-.303.026-.6.144-.298.416-.404l.808-.314q.303-.118.593.029.287.139.39.403l.005.016q.863-1.096 1.37-1.401 1.742-1.044 3.235-.148.812.498 1.518 2.29zM126.965 167.668l.012.031q.106.272.047.537-.152.551-1.365 1.022-1.616.63-3.174.027-1.559-.602-2.136-2.086-.577-1.485.165-2.981.742-1.497 2.359-2.126.573-.205 1.164-.273.64-.034.867.548l.02.055q.155.396-.037.73-.223.347-.84.462-.621.107-1.24.678-.352.316-.423.845-.077.54.126 1.06l.033.086q.308.793 1.068 1.16.757.358 1.48.077.307-.084.64-.285.34-.186.724-.049.37.125.51.482z"/>
+      </g>
+    </g>
+  </g>
+</svg>

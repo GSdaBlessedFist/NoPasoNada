@@ -1,0 +1,17 @@
+/*variables and mixins*/
+
+@mixin b($w:1px,$c:red){
+	background:  #001;
+	border: $w $c solid;
+	color:  white;
+}
+
+$pageHeight: 800px;
+$scrollWidth: 15px;
+
+%page{
+	display: block;
+	position: relative;
+	width: calc(100% - $scrollWidth);
+	height: $pageHeight;
+}
