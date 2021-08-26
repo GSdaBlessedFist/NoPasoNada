@@ -7,15 +7,17 @@
 	padding: 0;
 	margin: 0;
 }
-html {
+/*html {
   scroll-behavior: smooth;
-}
+}*/
 body{
-	background: black;
+	background: #001;
+
 }
 .prime-container{
 	display: grid;
-	width: 100%;
+	width: 80%;
+	margin: 0 auto;
 	height: 99vh;
 	grid-template-rows: 75px 1fr 75px;
 	grid-template-areas:  "header"
@@ -28,6 +30,7 @@ body{
 	&__main-section{
 		grid-area: mainsection;
 		@include b;
+		scroll-behavior: smooth;
 		overflow: auto;
 	}
 	&__footer{

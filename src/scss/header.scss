@@ -5,6 +5,7 @@
 	display: grid;
 	grid-template-columns: 75px auto;
 	grid-template-areas: "logo links";
+	background: lightblue;
 	&-icon-container{
 		grid-area: logo;
 		width: 100%;
@@ -22,7 +23,7 @@
 		align-items: center;
 		@at-root{
 			.header-link{
-				color: white;
+				color: blue;
 				text-decoration: none;
 			}
 		}

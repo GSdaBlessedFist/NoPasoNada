@@ -1,19 +1,75 @@
 /*main-section*/
 @import "variables";
 
-
 .main-section{
-	display: grid;
-	grid-template-rows: 80% 20%;
-	grid-template-areas: "hero"
-						 "info";
+	display: block;
 	@at-root{
-		@for $i from 1 through 3{
-			.page-#{$i}{
-				@extend %page;
-				background: hsl(random(180) - 100, 50%, 70%);
-				border: 2px black solid;
-			}
+		.page{
+			@extend %page;
+			/*background: hsl(random(180) - 100, 50%, 70%);
+			border: 2px black solid;*/
 		}
+	}
+}
+.landing-page{
+	display: grid;
+	grid-template-rows: 85% 15%;
+	grid-template-areas: "hero"
+						"info";
+	background: lightblue;
+	&--hero{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		background: blue;
+
+	}
+	&--info{
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		color:  blue;
+	}
+}
+.services-page{
+	display: grid;
+	grid-template-rows: 12% 88%;
+	grid-template-areas: "title"
+						"info";
+	&--title{
+		grid-area:  title;
+		text-align: center;
+		padding: 15px;
+		background: lightblue;
+	}
+	&--info-container{
+		grid-area: info;
+		display: grid;
+		grid-template-columns: 70% 30%;
+		grid-template-areas: "list descriptions";
+		background: blue;
+	}
+	&--list{
+		grid-area: list;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+		padding:  25px 0px 55px 0px;
+		background: blue;
+	}
+	&--service-item{
+		font-size: 1.5rem;
+		text-decoration: none;
+		color: white;
+	}
+	&--services-descriptions{
+		grid-area: descriptions;
+		display: flex;
+		justify-content: center;
+		align-items:  center;
+		padding:  0px 30px;
+		border-left: 2px white solid;
 	}
 }

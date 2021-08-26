@@ -5,26 +5,27 @@
   display: grid;
   grid-template-columns: 75px auto;
   grid-template-areas: "logo links";
+  background: lightblue;
 }
-/* line 8, ../../src/scss/header.scss */
+/* line 9, ../../src/scss/header.scss */
 .header-icon-container {
   grid-area: logo;
   width: 100%;
 }
-/* line 12, ../../src/scss/header.scss */
+/* line 13, ../../src/scss/header.scss */
 .header-icon {
   width: 100%;
   background: cover;
 }
-/* line 18, ../../src/scss/header.scss */
+/* line 19, ../../src/scss/header.scss */
 .header-links-container {
   grid-area: links;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
-/* line 24, ../../src/scss/header.scss */
+/* line 25, ../../src/scss/header.scss */
 .header-link {
-  color: white;
+  color: blue;
   text-decoration: none;
 }
