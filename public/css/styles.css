@@ -1,0 +1,34 @@
+/* line 1, ../../src/scss/styles.scss */
+* {
+  margin: 0;
+}
+
+/* line 4, ../../src/scss/styles.scss */
+body {
+  background: #234;
+}
+
+/* line 14, ../../src/scss/styles.scss */
+.prime-container {
+  display: grid;
+  grid-template-rows: 10vh 80vh 10vh;
+  grid-template-areas: "header" "mainsection" "footer";
+}
+/* line 20, ../../src/scss/styles.scss */
+.prime-container__header {
+  background: #001;
+  border: 1px red solid;
+  color: white;
+}
+/* line 23, ../../src/scss/styles.scss */
+.prime-container__main-section {
+  background: #001;
+  border: 1px red solid;
+  color: white;
+}
+/* line 26, ../../src/scss/styles.scss */
+.prime-container__footer {
+  background: #001;
+  border: 1px red solid;
+  color: white;
+}
