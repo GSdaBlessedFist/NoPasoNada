@@ -1,6 +1,7 @@
 @import "variables";
 @import "header";
 @import "main-section";
+@import "footer";
 @import "scroll-component";
 
 *{
@@ -18,22 +19,21 @@ body{
 	display: grid;
 	width: 80%;
 	margin: 0 auto;
-	height: 99vh;
-	grid-template-rows: 75px 1fr 75px;
+	height: 100vh;
+	grid-template-rows: 80px 1fr 80px;
 	grid-template-areas:  "header"
 						  "mainsection"
 						  "footer";
-							  
+	overflow: hidden;					  
 	&__header{
 		grid-area: header;
 	}
 	&__main-section{
 		grid-area: mainsection;
-		@include b;
 		scroll-behavior: smooth;
 		overflow: auto;
 	}
 	&__footer{
-		grid-area: footer;
+		grid-area: footer;		
 	}
 }

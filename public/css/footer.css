@@ -1,0 +1,20 @@
+/*variables and mixins*/
+/* line 3, ../../src/scss/footer.scss */
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+  background: lightblue;
+  border-top: 2px white solid;
+}
+/* line 10, ../../src/scss/footer.scss */
+.footer--link {
+  color: white;
+  text-decoration: none;
+  transition: color .55s;
+}
+/* line 14, ../../src/scss/footer.scss */
+.footer--link:hover {
+  color: blue;
+}

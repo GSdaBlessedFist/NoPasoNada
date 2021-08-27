@@ -1,0 +1,18 @@
+@import "variables";
+
+.footer{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	height: 100%;
+	background: lightblue;
+	border-top: 2px white solid;
+	&--link{
+		color: white;
+		text-decoration: none;
+		transition: color .55s;
+		&:hover{
+			color: blue;
+		}
+	}
+}

@@ -5,35 +5,32 @@
   display: block;
   position: relative;
   width: calc(100% - $scrollWidth);
-  height: 700px;
+  height: 800px;
+  border-bottom: 2px white solid;
 }
 
 /* line 4, ../../src/scss/main-section.scss */
 .main-section {
   display: block;
 }
-/* line 7, ../../src/scss/main-section.scss */
-.page {
-  /*background: hsl(random(180) - 100, 50%, 70%);
-  border: 2px black solid;*/
-}
 
-/* line 14, ../../src/scss/main-section.scss */
+/* line 13, ../../src/scss/main-section.scss */
 .landing-page {
   display: grid;
   grid-template-rows: 85% 15%;
   grid-template-areas: "hero" "info";
   background: lightblue;
 }
-/* line 20, ../../src/scss/main-section.scss */
+/* line 19, ../../src/scss/main-section.scss */
 .landing-page--hero {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   background: blue;
+  color: white;
 }
-/* line 28, ../../src/scss/main-section.scss */
+/* line 27, ../../src/scss/main-section.scss */
 .landing-page--info {
   display: flex;
   justify-content: space-around;
@@ -41,17 +38,18 @@
   color: blue;
 }
 
-/* line 35, ../../src/scss/main-section.scss */
+/* line 34, ../../src/scss/main-section.scss */
 .services-page {
   display: grid;
   grid-template-rows: 12% 88%;
   grid-template-areas: "title" "info";
+  height: 800px;
 }
 /* line 40, ../../src/scss/main-section.scss */
 .services-page--title {
   grid-area: title;
   text-align: center;
-  padding: 15px;
+  padding: 25px;
   background: lightblue;
 }
 /* line 46, ../../src/scss/main-section.scss */
@@ -85,5 +83,38 @@
   justify-content: center;
   align-items: center;
   padding: 0px 30px;
+  color: white;
   border-left: 2px white solid;
+}
+
+/* line 78, ../../src/scss/main-section.scss */
+.contact-form-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: blue;
+}
+/* line 83, ../../src/scss/main-section.scss */
+.contact-form-page--form {
+  border: 2px white solid;
+  padding: 40px;
+}
+/* line 86, ../../src/scss/main-section.scss */
+.contact-form-page--form > label {
+  cursor: pointer;
+  color: white;
+  display: inline;
+  padding: 0px 5px;
+}
+/* line 92, ../../src/scss/main-section.scss */
+.contact-form-page--form > input {
+  display: block;
+  margin: 5px 0px;
+  font-size: 1.25rem;
+}
+
+/* line 100, ../../src/scss/main-section.scss */
+::placeholder {
+  text-align: center;
+  font-size: 1.25rem;
 }

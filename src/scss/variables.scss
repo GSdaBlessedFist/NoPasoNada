@@ -6,7 +6,7 @@
 	color:  white;
 }
 
-$pageHeight: 700px;
+$pageHeight: 800px;
 $scrollWidth: 15px;
 
 %page{
@@ -14,4 +14,5 @@ $scrollWidth: 15px;
 	position: relative;
 	width: calc(100% - $scrollWidth);
 	height: $pageHeight;
+	border-bottom: 2px white solid;
 }

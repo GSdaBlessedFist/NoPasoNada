@@ -4,7 +4,8 @@
   display: block;
   position: relative;
   width: calc(100% - $scrollWidth);
-  height: 700px;
+  height: 800px;
+  border-bottom: 2px white solid;
 }
 
 /*header section*/
@@ -14,28 +15,34 @@
   grid-template-columns: 75px auto;
   grid-template-areas: "logo links";
   background: lightblue;
+  border-bottom: 2px white solid;
 }
-/* line 9, ../../src/scss/header.scss */
-.header-icon-container {
+/* line 10, ../../src/scss/header.scss */
+.header--icon-container {
   grid-area: logo;
   width: 100%;
 }
-/* line 13, ../../src/scss/header.scss */
-.header-icon {
+/* line 14, ../../src/scss/header.scss */
+.header--icon {
   width: 100%;
   background: cover;
 }
-/* line 19, ../../src/scss/header.scss */
-.header-links-container {
+/* line 20, ../../src/scss/header.scss */
+.header--links-container {
   grid-area: links;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
-/* line 25, ../../src/scss/header.scss */
-.header-link {
-  color: blue;
+/* line 26, ../../src/scss/header.scss */
+.header--link {
+  color: white;
   text-decoration: none;
+  transition: color .55s;
+}
+/* line 30, ../../src/scss/header.scss */
+.header--link:hover {
+  color: blue;
 }
 
 /*main-section*/
@@ -43,28 +50,24 @@
 .main-section {
   display: block;
 }
-/* line 7, ../../src/scss/main-section.scss */
-.page {
-  /*background: hsl(random(180) - 100, 50%, 70%);
-  border: 2px black solid;*/
-}
 
-/* line 14, ../../src/scss/main-section.scss */
+/* line 13, ../../src/scss/main-section.scss */
 .landing-page {
   display: grid;
   grid-template-rows: 85% 15%;
   grid-template-areas: "hero" "info";
   background: lightblue;
 }
-/* line 20, ../../src/scss/main-section.scss */
+/* line 19, ../../src/scss/main-section.scss */
 .landing-page--hero {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   background: blue;
+  color: white;
 }
-/* line 28, ../../src/scss/main-section.scss */
+/* line 27, ../../src/scss/main-section.scss */
 .landing-page--info {
   display: flex;
   justify-content: space-around;
@@ -72,17 +75,18 @@
   color: blue;
 }
 
-/* line 35, ../../src/scss/main-section.scss */
+/* line 34, ../../src/scss/main-section.scss */
 .services-page {
   display: grid;
   grid-template-rows: 12% 88%;
   grid-template-areas: "title" "info";
+  height: 800px;
 }
 /* line 40, ../../src/scss/main-section.scss */
 .services-page--title {
   grid-area: title;
   text-align: center;
-  padding: 15px;
+  padding: 25px;
   background: lightblue;
 }
 /* line 46, ../../src/scss/main-section.scss */
@@ -116,7 +120,60 @@
   justify-content: center;
   align-items: center;
   padding: 0px 30px;
+  color: white;
   border-left: 2px white solid;
+}
+
+/* line 78, ../../src/scss/main-section.scss */
+.contact-form-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: blue;
+}
+/* line 83, ../../src/scss/main-section.scss */
+.contact-form-page--form {
+  border: 2px white solid;
+  padding: 40px;
+}
+/* line 86, ../../src/scss/main-section.scss */
+.contact-form-page--form > label {
+  cursor: pointer;
+  color: white;
+  display: inline;
+  padding: 0px 5px;
+}
+/* line 92, ../../src/scss/main-section.scss */
+.contact-form-page--form > input {
+  display: block;
+  margin: 5px 0px;
+  font-size: 1.25rem;
+}
+
+/* line 100, ../../src/scss/main-section.scss */
+::placeholder {
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+/* line 3, ../../src/scss/footer.scss */
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+  background: lightblue;
+  border-top: 2px white solid;
+}
+/* line 10, ../../src/scss/footer.scss */
+.footer--link {
+  color: white;
+  text-decoration: none;
+  transition: color .55s;
+}
+/* line 14, ../../src/scss/footer.scss */
+.footer--link:hover {
+  color: blue;
 }
 
 /* width */
@@ -147,7 +204,7 @@
   background: black;
 }
 
-/* line 6, ../../src/scss/styles.scss */
+/* line 7, ../../src/scss/styles.scss */
 * {
   padding: 0;
   margin: 0;
@@ -156,30 +213,28 @@
 /*html {
   scroll-behavior: smooth;
 }*/
-/* line 13, ../../src/scss/styles.scss */
+/* line 14, ../../src/scss/styles.scss */
 body {
   background: #001;
 }
 
-/* line 17, ../../src/scss/styles.scss */
+/* line 18, ../../src/scss/styles.scss */
 .prime-container {
   display: grid;
   width: 80%;
   margin: 0 auto;
-  height: 99vh;
-  grid-template-rows: 75px 1fr 75px;
+  height: 100vh;
+  grid-template-rows: 80px 1fr 80px;
   grid-template-areas: "header" "mainsection" "footer";
+  overflow: hidden;
 }
-/* line 27, ../../src/scss/styles.scss */
+/* line 28, ../../src/scss/styles.scss */
 .prime-container__header {
   grid-area: header;
 }
-/* line 30, ../../src/scss/styles.scss */
+/* line 31, ../../src/scss/styles.scss */
 .prime-container__main-section {
   grid-area: mainsection;
-  background: #001;
-  border: 1px red solid;
-  color: white;
   scroll-behavior: smooth;
   overflow: auto;
 }

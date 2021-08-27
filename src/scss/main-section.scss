@@ -6,8 +6,7 @@
 	@at-root{
 		.page{
 			@extend %page;
-			/*background: hsl(random(180) - 100, 50%, 70%);
-			border: 2px black solid;*/
+			
 		}
 	}
 }
@@ -23,7 +22,7 @@
 		align-items: center;
 		width: 100%;
 		background: blue;
-
+		color: white;
 	}
 	&--info{
 		display: flex;
@@ -37,10 +36,11 @@
 	grid-template-rows: 12% 88%;
 	grid-template-areas: "title"
 						"info";
+	height: 800px;					
 	&--title{
 		grid-area:  title;
 		text-align: center;
-		padding: 15px;
+		padding: 25px;
 		background: lightblue;
 	}
 	&--info-container{
@@ -70,6 +70,34 @@
 		justify-content: center;
 		align-items:  center;
 		padding:  0px 30px;
+		color: white;
 		border-left: 2px white solid;
+
 	}
+}
+.contact-form-page{
+	display: flex;
+	justify-content: center;
+	align-items:  center;
+	background: blue;
+	&--form{
+		border:  2px white solid;
+		padding: 40px;
+		&>label{
+			cursor: pointer;
+		    color: white;
+		    display: inline;
+		    padding: 0px 5px;
+		}
+		&>input{
+			display: block;
+			margin: 5px 0px;
+			font-size:  1.25rem;
+		}
+	}
+}
+
+::placeholder{
+	text-align: center;
+	font-size: 1.25rem;
 }
